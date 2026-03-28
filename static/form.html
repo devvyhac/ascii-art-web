@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <h1>Simple Form</h1>
+    <form action="/form" method="post">
+
+        <!-- taking the input from here -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="content" required><br><br>
+
+        <!-- Selecting the font down here. -->
+        <select name="font" id="font">
+            <option value="standard.txt">standard</option>
+            <option value="shadow.txt">shadow</option>
+            <option value="thinkertoy.txt">thinkertoy</option>
+        </select>
+
+        <!-- submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
